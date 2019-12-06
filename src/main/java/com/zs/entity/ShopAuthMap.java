@@ -104,8 +104,20 @@ public class ShopAuthMap {
 		this.shop = shop;
 	}
 
+	@Override
 	public String toString() {
-		return "[shopId=" + shopId + ", employeeId=" + employeeId
-				+ ", employeeName=" + name + "]";
+		return "ShopAuthMap{" +
+				"shopAuthId=" + shopAuthId +
+				", employeeId=" + employeeId +
+				", shopId=" + shopId +
+				", name='" + name + '\'' +
+				", title='" + title + '\'' +
+				", titleFlag=" + titleFlag +
+				", enableStatus=" + enableStatus +
+				", createTime=" + createTime +
+				", lastEditTime=" + lastEditTime +
+				", employee=" + employee +
+				", shop=" + shop +
+				'}';
 	}
 }

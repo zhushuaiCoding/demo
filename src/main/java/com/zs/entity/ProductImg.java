@@ -58,4 +58,15 @@ public class ProductImg {
 		this.productId = productId;
 	}
 
+	@Override
+	public String toString() {
+		return "ProductImg{" +
+				"productImgId=" + productImgId +
+				", imgAddr='" + imgAddr + '\'' +
+				", imgDesc='" + imgDesc + '\'' +
+				", priority=" + priority +
+				", createTime=" + createTime +
+				", productId=" + productId +
+				'}';
+	}
 }
